@@ -394,6 +394,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info img{
     position: relative;
+    margin: 1rem;
     width: 9rem;
     height: 8.5rem;
     left: 2.5rem;
