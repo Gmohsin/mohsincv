@@ -341,8 +341,16 @@ header .navbar ul li a:hover{
 
 .contact .row .content{
     flex:1 1 30rem;
-    padding:4rem;
-    padding-bottom: 0;
+    padding:4rem 4rem 0 12rem;
+}
+
+.contact .row img {
+    position: relative;
+    width: 18rem;
+    height: 17.5rem;
+    left: -12rem;
+    top: 2rem;
+    border-radius: .5rem;
 }
 
 .contact .row form{
@@ -391,15 +399,6 @@ header .navbar ul li a:hover{
     padding-right: 1rem;
     color:var(--yellow);
 }
-
-.contact .row .content .info img{
-    position: relative;
-    width: 9rem;
-    height: 8.5rem;
-    left: 2.5rem;
-    border-radius: .5rem;
-}
-
 
 .top{
     position: fixed;
